@@ -154,10 +154,12 @@ No formal computer-science degree — everything I build was learned by working 
 - **[HackTheBox](https://www.hackthebox.com)** — practical security labs and machine challenges
 - **[freeCodeCamp](https://www.freecodecamp.org)** — full curriculum in web development and programming
 - **[roadmap.sh](https://roadmap.sh)** — structured learning paths for developer and security topics
-- **[DataCode](https://www.datacode.in)**
+- **[DataCode](https://www.datacode.in)** — computer science learning community with tutorials, blogs, practice questions, and quizzes for beginners
 - **[W3Schools](https://www.w3schools.com)** — reference documentation for web technologies
 - **[LeetCode](https://leetcode.com)** — algorithmic problem solving and data structures
 - **[DevDocs](https://devdocs.io)** — fast, searchable API documentation for everyday reference
+- **[Discord Developer Docs](https://docs.discord.com/developers)** — official documentation for building Discord bots and apps
+- **[discord-api-docs](https://github.com/discord/discord-api-docs)** — the open-source repository behind the Discord API documentation
 
 <br/>
 
