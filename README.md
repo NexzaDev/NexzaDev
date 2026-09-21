@@ -1,6 +1,8 @@
 <div align="center">
 
-# Nexza — Network Engineer · Developer · Cyber Security
+# Nexza
+
+### Network Engineer · Developer · Cyber Security
 
 Self-taught engineer building open-source tooling for networks, the web, and security testing.
 
@@ -14,7 +16,7 @@ Self-taught engineer building open-source tooling for networks, the web, and sec
 
 ## About
 
-I'm Nexza — a self-taught engineer working across three areas that keep feeding into each other: networks, software, and security. There's no degree behind this page; there's a long trail of labs, challenges, and repositories.
+I'm Nexza, a self-taught engineer working across three areas that keep feeding into each other: networks, software, and security. There's no degree behind this page; there's a long trail of labs, challenges, and repositories.
 
 The work I publish is open source: Nmap NSE scripts in Lua for defensive security auditing, plus the web projects below. I'm co-founder and lead developer at **Sonix-Devs**, alongside my work as lead developer at **Aperture-Nexus**.
 
@@ -23,7 +25,7 @@ The work I publish is open source: Nmap NSE scripts in Lua for defensive securit
 - **Focus:** Network security auditing, Nmap NSE script engineering, Discord platform automation, game scripting (Roblox & more)
 - **Philosophy:** read the docs → build it → break it yourself first
 - **Currently:** hardening `Nmap-NSE-Script-Collection`
-- **Portfolio:** [github.com/NexzaDev/MyWebsite](https://github.com/NexzaDev/MyWebsite)
+- **Portfolio:** [nexza.dev](https://nexza.dev)
 
 <br/>
 
@@ -37,7 +39,7 @@ Organized by the area I use each one for.
 <tr><th align="center">Language</th><th align="left">Primary Use</th></tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=lua" width="32" height="32" /></td>
-<td>Nmap NSE script engineering — parsing protocol responses, detection logic, structured findings</td>
+<td>Nmap NSE script engineering, parsing protocol responses, detection logic, structured findings</td>
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=python" width="32" height="32" /></td>
@@ -45,7 +47,7 @@ Organized by the area I use each one for.
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=js" width="32" height="32" /></td>
-<td>Discord bots — command handling, event listeners, role/level automation</td>
+<td>Discord bots, command handling, event listeners, role/level automation</td>
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=ts" width="32" height="32" /></td>
@@ -65,7 +67,7 @@ Organized by the area I use each one for.
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="32" height="32" /></td>
-<td>Persistence layer for bots and tools — configs, user data, levels, logs</td>
+<td>Persistence layer for bots and tools, configs, user data, levels, logs</td>
 </tr>
 </table>
 
@@ -79,7 +81,7 @@ Organized by the area I use each one for.
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=nextjs" width="32" height="32" /></td>
-<td>Portfolio site and other web builds — static export, deployed on Cloudflare</td>
+<td>Portfolio site and other web builds, static export, deployed on Cloudflare</td>
 </tr>
 <tr>
 <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="32" height="32" /></td>
@@ -109,7 +111,7 @@ Organized by the area I use each one for.
 </tr>
 <tr>
 <td><b>Luau</b></td>
-<td>Roblox scripting — gameplay logic and server-side mechanics</td>
+<td>Roblox scripting, gameplay logic and server-side mechanics</td>
 </tr>
 </table>
 
@@ -139,27 +141,27 @@ Organized by the area I use each one for.
 
 ## Focus Areas
 
-- **Cybersecurity** — a pentesting mindset applied strictly to defensive, non-destructive auditing: thinking like an attacker to find weaknesses, then documenting and fixing them.
-- **Network Security** — custom Nmap / NSE scripts covering HTTP, DNS, SMB, SSL/TLS, database, and FTP services, surfacing real misconfigurations like open resolvers, weak ciphers, and unauthenticated access.
-- **Discord Automation** — role hierarchies, XP/level systems, moderation tooling, and automated workflows that keep communities organized at scale.
-- **Web Development** — building and shipping web projects with Next.js and React, from a personal portfolio to a full media-download application.
-- **Game Scripting** — Roblox and other community platforms, experimenting with gameplay logic and server-side mechanics.
+- **Cybersecurity**, a pentesting mindset applied strictly to defensive, non-destructive auditing: thinking like an attacker to find weaknesses, then documenting and fixing them.
+- **Network Security**, custom Nmap / NSE scripts covering HTTP, DNS, SMB, SSL/TLS, database, and FTP services, surfacing real misconfigurations like open resolvers, weak ciphers, and unauthenticated access.
+- **Discord Automation**, role hierarchies, XP/level systems, moderation tooling, and automated workflows that keep communities organized at scale.
+- **Web Development**, building and shipping web projects with Next.js and React, from a personal portfolio to a full media-download application.
+- **Game Scripting**, Roblox and other community platforms, experimenting with gameplay logic and server-side mechanics.
 
 <br/>
 
 ## Learning Approach
 
-No formal computer-science degree — everything I build was learned by working through the platforms below and then shipping with them:
+No formal computer-science degree. Everything I build was learned by working through the platforms below and then shipping with them:
 
-- **[HackTheBox](https://www.hackthebox.com)** — practical security labs and machine challenges
-- **[freeCodeCamp](https://www.freecodecamp.org)** — full curriculum in web development and programming
-- **[roadmap.sh](https://roadmap.sh)** — structured learning paths for developer and security topics
-- **[DataCode](https://www.datacode.in)** — computer science learning community with tutorials, blogs, practice questions, and quizzes for beginners
-- **[W3Schools](https://www.w3schools.com)** — reference documentation for web technologies
-- **[LeetCode](https://leetcode.com)** — algorithmic problem solving and data structures
-- **[DevDocs](https://devdocs.io)** — fast, searchable API documentation for everyday reference
-- **[Discord Developer Docs](https://docs.discord.com/developers)** — official documentation for building Discord bots and apps
-- **[discord-api-docs](https://github.com/discord/discord-api-docs)** — the open-source repository behind the Discord API documentation
+- **[HackTheBox](https://www.hackthebox.com)**, practical security labs and machine challenges
+- **[freeCodeCamp](https://www.freecodecamp.org)**, full curriculum in web development and programming
+- **[roadmap.sh](https://roadmap.sh)**, structured learning paths for developer and security topics
+- **[DataCode](https://www.datacode.in)**, computer science learning community with tutorials, blogs, practice questions, and quizzes for beginners
+- **[W3Schools](https://www.w3schools.com)**, reference documentation for web technologies
+- **[LeetCode](https://leetcode.com)**, algorithmic problem solving and data structures
+- **[DevDocs](https://devdocs.io)**, fast, searchable API documentation for everyday reference
+- **[Discord Developer Docs](https://docs.discord.com/developers)**, official documentation for building Discord bots and apps
+- **[discord-api-docs](https://github.com/discord/discord-api-docs)**, the open-source repository behind the Discord API documentation
 
 <br/>
 
@@ -185,13 +187,13 @@ No formal computer-science degree — everything I build was learned by working 
 
 [![Nmap-NSE-Script-Collection](https://github-readme-stats.vercel.app/api/pin/?username=NexzaDev&repo=Nmap-NSE-Script-Collection&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&text_color=c9d1d9&icon_color=1E90FF)](https://github.com/NexzaDev/Nmap-NSE-Script-Collection)
 
-**Custom Nmap NSE scripts for defensive, informational security audits** — a 55+ script collection spanning HTTP, DNS, SMB, SSL/TLS, database, and FTP services. Each script targets a specific, real-world misconfiguration: missing security headers, insecure cookie flags, open DNS resolvers, weak TLS ciphers, unauthenticated database access, anonymous FTP uploads, and more. Built to run standalone or combined into full infrastructure-wide audit scans, with an emphasis on safe, non-destructive checks suitable for production environments.
+**Custom Nmap NSE scripts for defensive, informational security audits**. A 55+ script collection spanning HTTP, DNS, SMB, SSL/TLS, database, and FTP services. Each script targets a specific, real-world misconfiguration: missing security headers, insecure cookie flags, open DNS resolvers, weak TLS ciphers, unauthenticated database access, anonymous FTP uploads, and more. Built to run standalone or combined into full infrastructure-wide audit scans, with an emphasis on safe, non-destructive checks suitable for production environments.
 
 55+ scripts · 6 categories · 198+ security checks · ~6,967 lines of Lua
 
 <br/>
 
-**[Multi-Downloader](https://github.com/Sonix-Devs/multi-downloader)** <sub>— Sonix-Devs</sub>
+**[Multi-Downloader](https://github.com/Sonix-Devs/multi-downloader)** <sub>Sonix-Devs</sub>
 
 A media-download web application with real-time link detection across ten platforms, live metadata preview, dynamic quality and format selection, and a concurrent download queue with streamed progress. Extraction runs through yt-dlp and ffmpeg behind a Next.js front end.
 
@@ -199,9 +201,9 @@ A media-download web application with real-time link detection across ten platfo
 
 <br/>
 
-**[Portfolio Site](https://github.com/NexzaDev/MyWebsite)**
+**[Portfolio Site](https://nexza.dev)**
 
-My personal portfolio — Next.js, Tailwind CSS, HeroUI, and Headless UI, shipped as a static export and deployed on Cloudflare Workers.
+My personal portfolio, built with Next.js, Tailwind CSS, HeroUI, and Headless UI, shipped as a static export and deployed on Cloudflare Workers.
 
 <br/>
 
@@ -236,4 +238,4 @@ My personal portfolio — Next.js, Tailwind CSS, HeroUI, and Headless UI, shippe
 
 </div>
 
-Open to collaborating on security tooling, NSE scripts, and web/Discord automation projects — feel free to reach out about contributions, bug reports, or just to talk shop on network security.
+Open to collaborating on security tooling, NSE scripts, and web/Discord automation projects. Feel free to reach out about contributions, bug reports, or just to talk shop on network security.
