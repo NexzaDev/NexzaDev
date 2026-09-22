@@ -181,7 +181,7 @@ No formal computer-science degree. Everything I build was learned by working thr
 <tr>
 <td><a href="https://github.com/NexusResearch">NexusResearch</a></td>
 <td>Lead Developer</td>
-<td>Software development organisation, listed on GitHub under the name Nexus Team.</td>
+<td>A software development and cybersecurity organisation, listed on GitHub under the name Nexus Team.</td>
 </tr>
 </table>
 
