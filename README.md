@@ -16,9 +16,13 @@ Self-taught engineer building open-source tooling for networks, the web, and sec
 
 ## About
 
-I'm Nexza, a self-taught engineer working across three areas that keep feeding into each other: networks, software, and security. There's no degree behind this page; there's a long trail of labs, challenges, and repositories.
+I'm Nexza, a self-taught engineer working across three areas that keep feeding into each other: networks, software, and security. There's no degree behind this page; there's a long trail of labs, challenges, and repositories, built one weekend project and one broken build at a time.
 
-The work I publish is open source: Nmap NSE scripts in Lua for defensive security auditing, plus the web projects below. I'm co-founder and lead developer at **Sonix-Devs**, alongside my work as lead developer at **Aperture-Nexus**.
+I got here the same way most self-taught people do: by being curious about how things actually work under the hood, then refusing to stop at "it works" until I understood why. That habit turned into a routine. I read the documentation for whatever I'm using, I build something small with it, and then I try to break what I built, because that's usually where the real learning happens. It's slower than copying a tutorial, but it's the only way I've found that actually sticks.
+
+Security is the thread that ties everything together for me. Whether I'm writing an Nmap NSE script, wiring up a Discord bot, or shipping a web app, I'm usually thinking about the same questions: what can go wrong here, who could misuse this, and how do I close that gap before it becomes a problem. That mindset is why most of what I publish leans defensive: tools meant to find and explain weaknesses, not exploit them.
+
+The work I publish is open source: Nmap NSE scripts in Lua for defensive security auditing, plus the web projects below. I'm co-founder and lead developer at **Sonix-Devs**, alongside my work as lead developer at **NexusResearch**. Outside of those, I spend time on personal projects that let me practice a specific skill in isolation, whether that's a new language, a new framework, or a new class of vulnerability, before folding what I learn back into bigger work.
 
 - **Location:** Greece
 - **Role:** Network Engineer · Developer · Cyber Security
@@ -141,11 +145,11 @@ Organized by the area I use each one for.
 
 ## Focus Areas
 
-- **Cybersecurity**, a pentesting mindset applied strictly to defensive, non-destructive auditing: thinking like an attacker to find weaknesses, then documenting and fixing them.
-- **Network Security**, custom Nmap / NSE scripts covering HTTP, DNS, SMB, SSL/TLS, database, and FTP services, surfacing real misconfigurations like open resolvers, weak ciphers, and unauthenticated access.
-- **Discord Automation**, role hierarchies, XP/level systems, moderation tooling, and automated workflows that keep communities organized at scale.
-- **Web Development**, building and shipping web projects with Next.js and React, from a personal portfolio to a full media-download application.
-- **Game Scripting**, Roblox and other community platforms, experimenting with gameplay logic and server-side mechanics.
+- **Cybersecurity.** A pentesting mindset applied strictly to defensive, non-destructive auditing. I think like an attacker to find weaknesses, then I document them clearly enough that someone else can fix them without needing to reverse-engineer my thought process. The goal is always to leave a system safer, never to leave a mess behind.
+- **Network Security.** Custom Nmap and NSE scripts covering HTTP, DNS, SMB, SSL/TLS, database, and FTP services, surfacing real misconfigurations like open resolvers, weak ciphers, and unauthenticated access. Every script is written to run safely against production infrastructure, so it can be trusted, not just powerful.
+- **Discord Automation.** Role hierarchies, XP and level systems, moderation tooling, and automated workflows that keep communities organized at scale. I care about bots that stay reliable under real usage, not just demos that work once.
+- **Web Development.** Building and shipping web projects with Next.js and React, from a personal portfolio to a full media-download application, with attention to performance, type safety, and a clean developer experience.
+- **Game Scripting.** Roblox and other community platforms, experimenting with gameplay logic and server-side mechanics, and treating games as another environment to practice writing secure, well-structured code.
 
 <br/>
 
@@ -175,7 +179,7 @@ No formal computer-science degree. Everything I build was learned by working thr
 <td>A cybersecurity-focused programming platform building projects in ethical hacking, penetration testing, digital forensics, and security research.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/Aperture-Nexus">Aperture-Nexus</a></td>
+<td><a href="https://github.com/NexusResearch">NexusResearch</a></td>
 <td>Lead Developer</td>
 <td>Software development organisation, listed on GitHub under the name Nexus Team.</td>
 </tr>
@@ -187,25 +191,8 @@ No formal computer-science degree. Everything I build was learned by working thr
 
 [![Nmap-NSE-Script-Collection](https://github-readme-stats.vercel.app/api/pin/?username=NexzaDev&repo=Nmap-NSE-Script-Collection&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&text_color=c9d1d9&icon_color=1E90FF)](https://github.com/NexzaDev/Nmap-NSE-Script-Collection)
 
-**Custom Nmap NSE scripts for defensive, informational security audits**. A 55+ script collection spanning HTTP, DNS, SMB, SSL/TLS, database, and FTP services. Each script targets a specific, real-world misconfiguration: missing security headers, insecure cookie flags, open DNS resolvers, weak TLS ciphers, unauthenticated database access, anonymous FTP uploads, and more. Built to run standalone or combined into full infrastructure-wide audit scans, with an emphasis on safe, non-destructive checks suitable for production environments.
+A collection of custom Nmap NSE scripts written in Lua for defensive, informational security auditing. Each script checks a network service for a specific real-world misconfiguration and reports it, built to run standalone or as part of a larger infrastructure scan.
 
-55+ scripts · 6 categories · 198+ security checks · ~6,967 lines of Lua
-
-<br/>
-
-**[Multi-Downloader](https://github.com/Sonix-Devs/multi-downloader)** <sub>Sonix-Devs</sub>
-
-A media-download web application with real-time link detection across ten platforms, live metadata preview, dynamic quality and format selection, and a concurrent download queue with streamed progress. Extraction runs through yt-dlp and ffmpeg behind a Next.js front end.
-
-`Next.js` `TypeScript` `Zustand` `PostgreSQL` `yt-dlp`
-
-<br/>
-
-**[Portfolio Site](https://nexza.dev)**
-
-My personal portfolio, built with Next.js, Tailwind CSS, HeroUI, and Headless UI, shipped as a static export and deployed on Cloudflare Workers.
-
-<br/>
 
 ## Analytics
 
