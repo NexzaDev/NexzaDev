@@ -2,7 +2,7 @@
 
 <a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/hero.svg" /><img src="assets/svg/hero-mobile.svg" width="100%" alt="NexzaDev, Network Engineer · Developer · Cyber Security, Greece" /></picture></a>
 
-<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/profile-badges.svg" /><img src="assets/svg/profile-badges-mobile.svg" width="100%" alt="Focus NETWORK SECURITY; Status BUILDING; Location GREECE; Portfolio NEXZA.DEV" /></picture></a>
+<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/profile-badges.svg" /><img src="assets/svg/profile-badges-mobile.svg" width="100%" alt="Profile Views 788; Followers 1; Total Stars 2; Leetcode 12 SOLVED; Focus NETWORK SECURITY; Status BUILDING; Location GREECE; Portfolio NEXZA.DEV" /></picture></a>
 
 <picture><source media="(min-width: 1012px)" srcset="assets/svg/intro.svg" /><img src="assets/svg/intro-mobile.svg" width="100%" alt="About NexzaDev: self-taught network engineer in Greece working across networking, development and security. Currently building argus-asm." /></picture>
 
