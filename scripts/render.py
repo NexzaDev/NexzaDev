@@ -113,7 +113,7 @@ def intro(w, mobile):
     size = 13 if mobile else 15
     paras = [
         "Self-taught engineer based in Greece, working at the intersection of networking, software development and security. I build open source tools with a focus on defensive auditing and practical automation.",
-        "My core work is Nmap NSE scripts in Lua for network service auditing, complemented by web development with Next.js and React, Discord platform automation and game scripting. Everything I publish is safe on production infrastructure and clearly documented.",
+        "My core work is Nmap NSE scripts in Lua for network service auditing, complemented by web development with Next.js and React, Discord platform automation. Everything I publish is safe on production infrastructure and clearly documented.",
         "I learn by reading the documentation, building a minimal implementation and stress testing it myself.",
     ]
     y = 40
@@ -158,12 +158,38 @@ def project(w, mobile):
     return h, full, "Nmap-NSE-Script-Collection: custom Nmap NSE scripts in Lua for defensive security auditing across HTTP, DNS, SMB, SSL/TLS, FTP and databases."
 
 
+def experience(w, mobile):
+    px = 24 if mobile else 32
+    n = 40 if mobile else 88
+    size = 13 if mobile else 14
+    body = text(px, 38, "CURRENT ROLE", 10, G, 700, MONO, 'letter-spacing="2"')
+    body += text(px, 72, "Co-Founder, Lead Developer", 20 if mobile else 28, "#ffffff", 800)
+    body += text(px, 98, "Sonix-Devs  \u00b7  Ongoing", 13 if mobile else 14, B, 700, MONO)
+    desc = "A cybersecurity focused programming platform building projects in ethical hacking, penetration testing, digital forensics and security research."
+    b, hh = lines(px, 130, desc, n, size, TXT)
+    body += b
+    y = 130 + hh + 8
+    x = px
+    for t in ["Cyber Security", "Ethical Hacking", "Security Research"]:
+        cw = len(t) * 7.4 + 22
+        if x + cw > w - px:
+            x = px
+            y += 36
+        body += f'<rect x="{x}" y="{y}" width="{cw}" height="26" rx="13" fill="rgba(30,144,255,0.10)" stroke="rgba(30,144,255,0.45)"/>'
+        body += text(x + cw / 2, y + 17, t, 11, B, 700, MONO, 'text-anchor="middle"')
+        x += cw + 8
+    y += 50
+    body += text(px, y, "github.com/Sonix-Devs  \u2192", 14, G, 700, MONO)
+    h = y + 26
+    full = card_bg(w, h) + f'<g clip-path="url(#c)"><rect width="{w}" height="{h}" fill="url(#grid)"/><rect x="0" y="0" width="5" height="{h}" fill="url(#acc)"/></g>' + body
+    return h, full, "Experience: Co-Founder and Lead Developer at Sonix-Devs, a cybersecurity focused programming platform for ethical hacking, penetration testing, digital forensics and security research."
+
+
 FOCUS = [
     ("Cybersecurity", "Defensive, non destructive auditing informed by an attacker perspective. Identify weaknesses, document them precisely and leave systems safer than found."),
     ("Network Security", "Nmap and NSE coverage for common services, surfacing open resolvers, weak ciphers and unauthenticated access. Written for reliable use on live environments."),
     ("Discord Automation", "Production grade bots for moderation, role hierarchies, XP and leveling systems and community workflows. Built for stability under real load."),
     ("Web Development", "End to end products with Next.js, React and Node.js, focused on performance, type safety and clean architecture. Statically exported on Cloudflare."),
-    ("Game Scripting", "Gameplay logic and server side mechanics on Roblox and similar platforms, used as a disciplined environment for structured and secure code."),
 ]
 
 
@@ -172,7 +198,7 @@ def focus(w, mobile):
     if mobile:
         cols = 1
     else:
-        cols = 3
+        cols = 2
     tw = (w - gap * (cols - 1)) / cols
     n = int((tw - 36) / 6.9)
     tiles = []
@@ -193,14 +219,14 @@ def focus(w, mobile):
                 body += text(x + 18, y + 70 + j * 18, l, 12, TXT)
         y += th + gap
     h = y - gap
-    return h, body, "Focus areas: cybersecurity, network security, Discord automation, web development and game scripting."
+    return h, body, "Focus areas: cybersecurity, network security, Discord automation and web development."
 
 
 STACK = [
-    ("LANGUAGES", ["Lua", "Python", "JavaScript", "TypeScript", "HTML", "CSS", "Bash", "MySQL"]),
-    ("WEB & DATA", ["React", "Next.js", "Node.js", "MongoDB", "GraphQL"]),
-    ("NETWORKING & PROTOCOLS", ["NSE", "Nmap", "WebSockets", "Luau"]),
-    ("ENVIRONMENT", ["Linux", "Git", "VS Code", "Figma"]),
+    ("NETWORKING & SECURITY", ["Linux", "Bash", "Python", "Lua", "NSE", "Nmap", "WebSockets"]),
+    ("LANGUAGES", ["JavaScript", "TypeScript", "HTML", "CSS", "SQL"]),
+    ("WEB & DATA", ["React", "Next.js", "Node.js", "MongoDB"]),
+    ("TOOLS", ["Git/GitHub", "VS Code", "Figma", "Canva", "CapCut"]),
 ]
 
 
@@ -224,7 +250,7 @@ def stack(w, mobile):
         y += 54
     h = y - 8
     full = card_bg(w, h) + f'<g clip-path="url(#c)"><rect width="{w}" height="{h}" fill="url(#grid)"/></g>' + body
-    return h, full, "Tech stack: Lua, Python, JavaScript, TypeScript, HTML, CSS, Bash, MySQL, React, Next.js, Node.js, MongoDB, GraphQL, NSE, Nmap, WebSockets, Luau, Linux, Git, VS Code, Figma."
+    return h, full, "Tech stack: Linux, Bash, Python, Lua, NSE, Nmap, WebSockets, JavaScript, TypeScript, HTML, CSS, SQL, React, Next.js, Node.js, MongoDB, Git/GitHub, VS Code, Figma, Canva, CapCut."
 
 
 BACK = [
@@ -312,6 +338,7 @@ for name, fn in [
     ("hero", hero),
     ("badges", badges),
     ("intro", intro),
+    ("experience", experience),
     ("project-nmap", project),
     ("focus", focus),
     ("stack", stack),
@@ -320,7 +347,7 @@ for name, fn in [
 ]:
     build(name, fn)
 
-for t in ["About", "Projects", "Focus Areas", "Technologies", "Background", "Analytics", "Connect"]:
+for t in ["About", "Experience", "Projects", "Focus Areas", "Technologies", "Background", "Coding Stats", "Connect"]:
     for mode in ("dark", "light"):
         for mobile in (False, True):
             section_header(t, mode, mobile)
