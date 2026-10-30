@@ -2,13 +2,12 @@
 
 <a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/hero.svg" /><img src="assets/svg/hero-mobile.svg" width="100%" alt="NexzaDev, Network Engineer · Developer · Cyber Security, Greece" /></picture></a>
 
-<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/profile-badges.svg" /><img src="assets/svg/profile-badges-mobile.svg" width="100%" alt="Profile Views 788; Followers 1; Total Stars 2; Leetcode 12 SOLVED; Focus NETWORK SECURITY; Status BUILDING; Location GREECE; Portfolio NEXZA.DEV" /></picture></a>
+<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/profile-badges.svg" /><img src="assets/svg/profile-badges-mobile.svg" width="100%" alt="Focus NETWORK SECURITY; Status BUILDING; Location GREECE; Portfolio NEXZA.DEV" /></picture></a>
 
-<picture><source media="(min-width: 1012px)" srcset="assets/svg/intro.svg" /><img src="assets/svg/intro-mobile.svg" width="100%" alt="About NexzaDev: self-taught network engineer in Greece working across networking, development and security. Currently hardening Nmap-NSE-Script-Collection." /></picture>
+<picture><source media="(min-width: 1012px)" srcset="assets/svg/intro.svg" /><img src="assets/svg/intro-mobile.svg" width="100%" alt="About NexzaDev: self-taught network engineer in Greece working across networking, development and security. Currently building argus-asm." /></picture>
 
 <p align="center">
 <a href="mailto:nexzadevbusiness@proton.me"><picture><img src="assets/svg/connect-email.svg" width="128" alt="Email" /></picture></a>
-<a href="https://discord.com/users/1411992082733863006"><picture><img src="assets/svg/connect-discord.svg" width="128" alt="Discord" /></picture></a>
 <a href="https://github.com/NexzaDev"><picture><img src="assets/svg/connect-github.svg" width="128" alt="GitHub" /></picture></a>
 <a href="https://x.com/NexzaDev"><picture><img src="assets/svg/connect-x.svg" width="128" alt="X" /></picture></a>
 <a href="https://www.instagram.com/nexzadev"><picture><img src="assets/svg/connect-instagram.svg" width="128" alt="Instagram" /></picture></a>
@@ -21,15 +20,15 @@
 
 <picture><source media="(prefers-color-scheme: light) and (min-width: 1012px)" srcset="assets/svg/header-experience-light.svg" /><source media="(prefers-color-scheme: dark) and (min-width: 1012px)" srcset="assets/svg/header-experience-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/svg/header-experience-light-mobile.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/svg/header-experience-dark-mobile.svg" /><img src="assets/svg/header-experience-dark-mobile.svg" width="100%" alt="Experience" /></picture>
 
-<a href="https://github.com/Sonix-Devs"><picture><source media="(min-width: 1012px)" srcset="assets/svg/experience.svg" /><img src="assets/svg/experience-mobile.svg" width="100%" alt="Career: Co-Founder and Lead Developer at Sonix-Devs, author of Nmap-NSE-Script-Collection. Focus areas: cybersecurity, network security, Discord automation, web development." /></picture></a>
+<a href="https://github.com/Sonix-Devs"><picture><source media="(min-width: 1012px)" srcset="assets/svg/experience.svg" /><img src="assets/svg/experience-mobile.svg" width="100%" alt="Career: Co-Founder and Lead Developer at Sonix-Devs, open-source author. Focus areas: cybersecurity, network security, attack surface management, web development." /></picture></a>
 
 <picture><img src="assets/svg/divider.svg" width="100%" alt="" /></picture>
 
 <picture><source media="(prefers-color-scheme: light) and (min-width: 1012px)" srcset="assets/svg/header-projects-light.svg" /><source media="(prefers-color-scheme: dark) and (min-width: 1012px)" srcset="assets/svg/header-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/svg/header-projects-light-mobile.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/svg/header-projects-dark-mobile.svg" /><img src="assets/svg/header-projects-dark-mobile.svg" width="100%" alt="Featured Projects" /></picture>
 
 <p align="center">
-<a href="https://github.com/NexzaDev/Nmap-NSE-Script-Collection"><picture><source media="(min-width: 1012px)" srcset="assets/svg/project-0.svg" /><img src="assets/svg/project-0-mobile.svg" width="400" alt="Nmap-NSE-Script-Collection: Custom Nmap NSE scripts for defensive, informational audits: missing security headers, insecure cookie flags and other misconfigurations across HTTP, DNS, SMB and TLS. Reports, never exploits." /></picture></a>
-<a href="https://github.com/Sonix-Devs"><picture><source media="(min-width: 1012px)" srcset="assets/svg/project-1.svg" /><img src="assets/svg/project-1-mobile.svg" width="400" alt="Sonix-Devs: A cybersecurity focused programming platform building projects in ethical hacking, penetration testing, digital forensics and security research." /></picture></a>
+<a href="https://github.com/NexzaDev/Nmap-NSE-Script-Collection"><picture><source media="(min-width: 1012px)" srcset="assets/svg/project-0.svg" /><img src="assets/svg/project-0-mobile.svg" width="400" alt="Nmap-NSE-Script-Collection: Custom Nmap scripts for defensive, informational audits: missing security headers, insecure cookie flags and other misconfigurations across HTTP, DNS, SMB and TLS. Reports, never exploits." /></picture></a>
+<a href="https://github.com/NexzaDev/argus-asm"><picture><source media="(min-width: 1012px)" srcset="assets/svg/project-1.svg" /><img src="assets/svg/project-1-mobile.svg" width="400" alt="argus-asm: Local-first Attack Surface Management CLI for defensive teams: scope-first asset inventory, findings import from CSV, JSON and SARIF, explainable risk scores, remediation tickets and a hash-chained audit log. One SQLite file, no account or server." /></picture></a>
 </p>
 
 <p align="center">
@@ -40,13 +39,13 @@
 
 <picture><source media="(prefers-color-scheme: light) and (min-width: 1012px)" srcset="assets/svg/header-stack-light.svg" /><source media="(prefers-color-scheme: dark) and (min-width: 1012px)" srcset="assets/svg/header-stack-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/svg/header-stack-light-mobile.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/svg/header-stack-dark-mobile.svg" /><img src="assets/svg/header-stack-dark-mobile.svg" width="100%" alt="Tech Stack and Tools" /></picture>
 
-<picture><source media="(min-width: 1012px)" srcset="assets/svg/stack.svg" /><img src="assets/svg/stack-mobile.svg" width="100%" alt="Tech stack: linux, bash, python, lua, git, github, vscode, figma, javascript, typescript, html, css, react, nextjs, nodejs, mongodb, mysql, NSE, Nmap, WebSockets, SQL, Canva, CapCut, Network Security, Defensive Auditing" /></picture>
+<picture><source media="(min-width: 1012px)" srcset="assets/svg/stack.svg" /><img src="assets/svg/stack-mobile.svg" width="100%" alt="Tech stack: linux, bash, python, lua, go, git, github, vscode, figma, javascript, typescript, html, css, react, nextjs, nodejs, mongodb, mysql, sqlite, Nmap, WebSockets, SQL, Canva, CapCut, Network Security, Defensive Auditing" /></picture>
 
 <picture><img src="assets/svg/divider.svg" width="100%" alt="" /></picture>
 
 <picture><source media="(prefers-color-scheme: light) and (min-width: 1012px)" srcset="assets/svg/header-background-light.svg" /><source media="(prefers-color-scheme: dark) and (min-width: 1012px)" srcset="assets/svg/header-background-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/svg/header-background-light-mobile.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/svg/header-background-dark-mobile.svg" /><img src="assets/svg/header-background-dark-mobile.svg" width="100%" alt="Learning and Background" /></picture>
 
-<picture><source media="(min-width: 1012px)" srcset="assets/svg/background.svg" /><img src="assets/svg/background-mobile.svg" width="100%" alt="Learning platforms: HackTheBox, freeCodeCamp, roadmap.sh, DataCode, W3Schools, LeetCode, DevDocs, Discord Developer Docs" /></picture>
+<picture><source media="(min-width: 1012px)" srcset="assets/svg/background.svg" /><img src="assets/svg/background-mobile.svg" width="100%" alt="Learning platforms: HackTheBox, freeCodeCamp, roadmap.sh, DataCode, W3Schools, LeetCode, DevDocs" /></picture>
 
 <picture><img src="assets/svg/divider.svg" width="100%" alt="" /></picture>
 
@@ -64,11 +63,10 @@
 
 <picture><img src="assets/svg/divider.svg" width="100%" alt="" /></picture>
 
-<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/footer.svg" /><img src="assets/svg/footer-mobile.svg" width="100%" alt="Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling, NSE scripts and web and Discord automation." /></picture></a>
+<a href="https://nexza.dev"><picture><source media="(min-width: 1012px)" srcset="assets/svg/footer.svg" /><img src="assets/svg/footer-mobile.svg" width="100%" alt="Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling and web development." /></picture></a>
 
 <p align="center">
 <a href="mailto:nexzadevbusiness@proton.me"><picture><img src="assets/svg/connect-email.svg" width="128" alt="Email" /></picture></a>
-<a href="https://discord.com/users/1411992082733863006"><picture><img src="assets/svg/connect-discord.svg" width="128" alt="Discord" /></picture></a>
 <a href="https://github.com/NexzaDev"><picture><img src="assets/svg/connect-github.svg" width="128" alt="GitHub" /></picture></a>
 <a href="https://x.com/NexzaDev"><picture><img src="assets/svg/connect-x.svg" width="128" alt="X" /></picture></a>
 <a href="https://www.instagram.com/nexzadev"><picture><img src="assets/svg/connect-instagram.svg" width="128" alt="Instagram" /></picture></a>

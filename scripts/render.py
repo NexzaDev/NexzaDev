@@ -56,7 +56,7 @@ HERO_LINES = [
     "Web and scripting support the network work.",
 ]
 HERO_NODES = [(620, 70, "LUA"), (730, 60, "NMAP"), (790, 140, "LINUX"),
-              (690, 180, "PY"), (590, 160, "BASH"), (700, 118, "NSE")]
+              (690, 180, "PY"), (590, 160, "BASH"), (700, 118, "SEC")]
 HERO_LINKS = [(0, 5), (1, 5), (2, 5), (3, 5), (4, 5), (0, 1), (2, 3), (3, 4)]
 
 INTRO = [
@@ -67,23 +67,23 @@ INTRO = [
 # (label, role, org, detail)
 ROLES = [
     ("ONGOING", "Co-Founder, Lead Developer", "Sonix-Devs", "CYBER SECURITY"),
-    ("OCT 2026", "Author, NSE script collection", "NexzaDev", "LUA  |  NMAP"),
+    ("2026", "Open-source author", "NexzaDev", "SECURITY TOOLING"),
 ]
 FOCUS = [
     ("CORE", "Cybersecurity", "Defensive auditing"),
-    ("CORE", "Network Security", "Nmap and NSE"),
-    ("BUILD", "Discord Automation", "Bots and moderation"),
+    ("CORE", "Network Security", "Nmap and protocols"),
+    ("BUILD", "Attack Surface Mgmt", "Local-first tooling"),
     ("BUILD", "Web Development", "Next.js and React"),
 ]
 PROJECTS = [
     {"title": "Nmap-NSE-Script-Collection", "date": "October 2026", "tag": "SOURCE",
      "url": "https://github.com/NexzaDev/Nmap-NSE-Script-Collection",
-     "text": "Custom Nmap NSE scripts for defensive, informational audits: missing security headers, insecure cookie flags and other misconfigurations across HTTP, DNS, SMB and TLS. Reports, never exploits.",
-     "tools": ["Lua", "NSE", "Nmap", "Python"]},
-    {"title": "Sonix-Devs", "date": "Ongoing", "tag": "ORG",
-     "url": "https://github.com/Sonix-Devs",
-     "text": "A cybersecurity focused programming platform building projects in ethical hacking, penetration testing, digital forensics and security research.",
-     "tools": ["Security", "Forensics", "Research"]},
+     "text": "Custom Nmap scripts for defensive, informational audits: missing security headers, insecure cookie flags and other misconfigurations across HTTP, DNS, SMB and TLS. Reports, never exploits.",
+     "tools": ["Lua", "Nmap", "Python"]},
+    {"title": "argus-asm", "date": "Early development", "tag": "SOURCE",
+     "url": "https://github.com/NexzaDev/argus-asm",
+     "text": "Local-first Attack Surface Management CLI for defensive teams: scope-first asset inventory, findings import from CSV, JSON and SARIF, explainable risk scores, remediation tickets and a hash-chained audit log. One SQLite file, no account or server.",
+     "tools": ["Go", "SQLite", "SARIF", "Nmap"]},
 ]
 BACK = [
     ("HackTheBox", "Labs and machines for practical security"),
@@ -93,13 +93,12 @@ BACK = [
     ("W3Schools", "Quick reference for web technologies"),
     ("LeetCode", "Algorithms and data structures"),
     ("DevDocs", "Searchable API documentation"),
-    ("Discord Developer Docs", "Official docs for apps and bots"),
 ]
 ICON_ROWS = [
-    ["linux", "bash", "python", "lua", "git", "github", "vscode", "figma"],
-    ["javascript", "typescript", "html", "css", "react", "nextjs", "nodejs", "mongodb", "mysql"],
+    ["linux", "bash", "python", "lua", "go", "git", "github", "vscode", "figma"],
+    ["javascript", "typescript", "html", "css", "react", "nextjs", "nodejs", "mongodb", "mysql", "sqlite"],
 ]
-CHIPS = ["NSE", "Nmap", "WebSockets", "SQL", "Canva", "CapCut", "Network Security", "Defensive Auditing"]
+CHIPS = ["Nmap", "WebSockets", "SQL", "Canva", "CapCut", "Network Security", "Defensive Auditing"]
 HEADERS = [
     ("experience", "01", "Experience", "where I work and what I focus on"),
     ("projects", "02", "Featured Projects", "what I have built"),
@@ -109,7 +108,6 @@ HEADERS = [
 ]
 CONNECT = [
     ("email", "Email", "protonmail", f"mailto:{EMAIL}"),
-    ("discord", "Discord", "discord", "https://discord.com/users/1411992082733863006"),
     ("github", "GitHub", "github", f"https://github.com/{USER}"),
     ("x", "X", "x", f"https://x.com/{USER}"),
     ("instagram", "Instagram", "instagram", "https://www.instagram.com/nexzadev"),
@@ -288,7 +286,7 @@ def render_hero(mobile=False) -> str:
         (x1, y1, _), (x2, y2, _) = nodes[a], nodes[b]
         parts.append(f'<circle cx="{x1}" cy="{y1}" r="2.6" fill="{SKY}"><animateMotion dur="2.4s" begin="{i * 0.45:.2f}s" repeatCount="indefinite" path="M0 0 L{x2 - x1} {y2 - y1}"/></circle>')
     for i, (x, y, lab) in enumerate(nodes):
-        hub = lab == "NSE"
+        hub = lab == "SEC"
         r = (20 if hub else 15) if mobile else (22 if hub else 17)
         stroke = BLUE if hub else "rgba(255,255,255,0.16)"
         fill = f"{BLUE}26" if hub else CARD
@@ -358,9 +356,9 @@ def render_intro(mobile=False) -> str:
     y += 4
     body.append(f'<rect x="{px}" y="{y - 8}" width="{w - 2 * px}" height="44" rx="10" fill="{BLUE}14" stroke="{BLUE}66"/>')
     body.append(f'<text class="m" x="{px + 14}" y="{y + 19}" fill="{BLUE_LIGHT}" font-size="10.5">CURRENTLY</text>')
-    body.append(f'<text class="m" x="{px + 112}" y="{y + 19}" fill="#f3f4f6" font-size="{10 if mobile else 12.5}">Hardening Nmap-NSE-Script-Collection</text>')
+    body.append(f'<text class="m" x="{px + 112}" y="{y + 19}" fill="#f3f4f6" font-size="{10 if mobile else 12.5}">Building argus-asm</text>')
     h = y + 50
-    return "".join([svg_open(w, h, "About NexzaDev: self-taught network engineer in Greece. Currently hardening Nmap-NSE-Script-Collection."),
+    return "".join([svg_open(w, h, "About NexzaDev: self-taught network engineer in Greece. Currently building argus-asm."),
                     STYLE, card_rect(w, h, 14), f'<rect x="0" y="22" width="3" height="28" rx="1.5" fill="{BLUE_LIGHT}"/>',
                     f'<text class="m" x="{px}" y="32" fill="{BLUE_LIGHT}" font-size="10.5">ABOUT</text>', *body, SVG_CLOSE])
 
@@ -575,10 +573,10 @@ def render_background(mobile=False) -> str:
 def render_footer(mobile=False) -> str:
     w, h = (400, 200) if mobile else (840, 172)
     wave = f"M0 110 C {w / 6:.0f} 80, {w / 3:.0f} 140, {w / 2:.0f} 110 S {w * 5 / 6:.0f} 80, {w} 110"
-    note = wrap("Open to collaboration on security tooling, NSE scripts and web and Discord automation.", 52 if mobile else 120)
+    note = wrap("Open to collaboration on security tooling and web development.", 52 if mobile else 120)
     kicker = "NEXZADEV  |  CYBER SECURITY" if mobile else "NEXZADEV  |  NETWORK ENGINEER · DEVELOPER · CYBER SECURITY"
     return "".join([
-        svg_open(w, h, "Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling, NSE scripts and web and Discord automation."),
+        svg_open(w, h, "Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling and web development."),
         f"<style>.s{{font-family:{SANS};font-weight:800}}.m{{font-family:{MONO};font-weight:700;letter-spacing:2px}}.d{{font-family:{SANS};font-weight:500}}</style>",
         card_rect(w, h),
         f'<text class="m" x="{w / 2}" y="34" text-anchor="middle" fill="{BLUE_LIGHT}" font-size="10.5">{kicker}</text>',
@@ -685,10 +683,10 @@ def build_readme(badges_alt: str) -> str:
         "<!-- Generated by scripts/render.py. Edit the script, not this file. -->",
         link(SITE, picture("hero.svg", f"{USER}, {TITLE}, Greece")),
         link(SITE, picture("profile-badges.svg", badges_alt)),
-        picture("intro.svg", "About NexzaDev: self-taught network engineer in Greece working across networking, development and security. Currently hardening Nmap-NSE-Script-Collection."),
+        picture("intro.svg", "About NexzaDev: self-taught network engineer in Greece working across networking, development and security. Currently building argus-asm."),
         connect, div,
         hd["experience"],
-        link("https://github.com/Sonix-Devs", picture("experience.svg", "Career: Co-Founder and Lead Developer at Sonix-Devs, author of Nmap-NSE-Script-Collection. Focus areas: cybersecurity, network security, Discord automation, web development.")),
+        link("https://github.com/Sonix-Devs", picture("experience.svg", "Career: Co-Founder and Lead Developer at Sonix-Devs, open-source author. Focus areas: cybersecurity, network security, attack surface management, web development.")),
         div, hd["projects"],
         f'<p align="center">\n{projects}\n</p>',
         f'<p align="center">\n{link(f"https://github.com/{USER}?tab=repositories", cta_img)}\n</p>',
@@ -700,7 +698,7 @@ def build_readme(badges_alt: str) -> str:
         link(f"https://github.com/{USER}", picture("github.svg", f"GitHub stats for @{USER}: contributions, commits, pull requests, stars, streak and languages")),
         link(f"https://leetcode.com/u/{LEETCODE_USER}/", picture("leetcode.svg", f"LeetCode stats for {LEETCODE_USER}")),
         snake, div,
-        link(SITE, picture("footer.svg", "Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling, NSE scripts and web and Discord automation.")),
+        link(SITE, picture("footer.svg", "Thanks for visiting. More at nexza.dev. Open to collaboration on security tooling and web development.")),
         connect,
     ]
     return "\n\n".join(blocks) + "\n"
