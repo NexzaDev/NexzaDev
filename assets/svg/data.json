@@ -1,51 +1,43 @@
 {
-  "views": 789,
+  "views": 791,
   "leetcode": {
     "badge": "",
     "rating": null,
     "top": null,
     "contests": 0,
-    "solved": 12,
+    "solved": 15,
     "by_difficulty": {
       "Easy": [
         1,
-        974
+        975
       ],
       "Medium": [
-        4,
-        2136
+        7,
+        2138
       ],
       "Hard": [
         7,
-        986
+        987
       ]
     },
     "history": []
   },
   "github": {
-    "contributions": 278,
+    "contributions": 284,
     "commits": 18,
-    "prs": 3,
-    "stars": 2,
+    "prs": 4,
+    "stars": 1,
     "repo_stars": {
       "Nmap-NSE-Script-Collection": 1,
       "NexzaDev": 0,
-      "argus-asm": 1
+      "argus-asm": 0,
+      "attackpath-visualizer": 0
     },
     "followers": 1,
-    "streak": 8,
-    "longest": 8,
-    "active_days": 29,
+    "streak": 9,
+    "longest": 9,
+    "active_days": 30,
     "calendar": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
       [
         0,
         0,
@@ -511,8 +503,11 @@
         19,
         8,
         9,
-        6,
-        1
+        4,
+        5
+      ],
+      [
+        4
       ]
     ],
     "languages": [
@@ -548,5 +543,5 @@
       ]
     ]
   },
-  "updated": "2026-10-31T12:53:22+00:00"
+  "updated": "2026-11-01T13:40:08+00:00"
 }
