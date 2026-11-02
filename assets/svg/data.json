@@ -23,20 +23,20 @@
     "history": []
   },
   "github": {
-    "contributions": 284,
-    "commits": 18,
+    "contributions": 326,
+    "commits": 58,
     "prs": 4,
-    "stars": 1,
+    "stars": 2,
     "repo_stars": {
       "Nmap-NSE-Script-Collection": 1,
       "NexzaDev": 0,
-      "argus-asm": 0,
+      "argus-asm": 1,
       "attackpath-visualizer": 0
     },
     "followers": 1,
-    "streak": 9,
-    "longest": 9,
-    "active_days": 30,
+    "streak": 10,
+    "longest": 10,
+    "active_days": 31,
     "calendar": [
       [
         0,
@@ -504,27 +504,28 @@
         8,
         9,
         4,
-        5
+        20
       ],
       [
-        4
+        30,
+        1
       ]
     ],
     "languages": [
       [
         "Lua",
-        96.6,
+        95.9,
         "#000080"
+      ],
+      [
+        "Go",
+        2.3,
+        "#00ADD8"
       ],
       [
         "Python",
         1.8,
         "#3572A5"
-      ],
-      [
-        "Go",
-        1.5,
-        "#00ADD8"
       ],
       [
         "Makefile",
@@ -543,5 +544,5 @@
       ]
     ]
   },
-  "updated": "2026-11-01T13:40:08+00:00"
+  "updated": "2026-11-02T16:24:10+00:00"
 }
