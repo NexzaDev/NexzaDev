@@ -23,20 +23,21 @@
     "history": []
   },
   "github": {
-    "contributions": 335,
-    "commits": 59,
+    "contributions": 343,
+    "commits": 66,
     "prs": 7,
     "stars": 2,
     "repo_stars": {
       "Nmap-NSE-Script-Collection": 1,
       "NexzaDev": 0,
       "argus-asm": 1,
-      "attackpath-visualizer": 0
+      "attackpath-visualizer": 0,
+      "nexzadev.github.io": 0
     },
     "followers": 1,
-    "streak": 1,
+    "streak": 2,
     "longest": 12,
-    "active_days": 34,
+    "active_days": 35,
     "calendar": [
       [
         0,
@@ -512,18 +513,24 @@
         6,
         1,
         0,
-        1
+        6,
+        3
       ]
     ],
     "languages": [
       [
         "Lua",
-        95.9,
+        92.7,
         "#000080"
       ],
       [
+        "TypeScript",
+        2.7,
+        "#3178c6"
+      ],
+      [
         "Go",
-        2.3,
+        2.2,
         "#00ADD8"
       ],
       [
@@ -532,21 +539,16 @@
         "#3572A5"
       ],
       [
-        "Makefile",
-        0.0,
-        "#427819"
+        "JavaScript",
+        0.3,
+        "#f1e05a"
       ],
       [
-        "Shell",
-        0.0,
-        "#89e051"
-      ],
-      [
-        "HTML",
-        0.0,
-        "#e34c26"
+        "CSS",
+        0.3,
+        "#663399"
       ]
     ]
   },
-  "updated": "2026-11-06T14:28:36+00:00"
+  "updated": "2026-11-07T13:22:54+00:00"
 }
